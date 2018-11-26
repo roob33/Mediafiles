@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/photo_oz"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/oz" />
+
+    <TextView
+        android:id="@+id/text_oz"
+        style="@style/CategoryStyle"
+        android:text="@string/return_to_oz" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/for_music"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/photo_nils"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/nils" />
+
+    <TextView
+        android:id="@+id/text_nils"
+        style="@style/CategoryStyle"
+        android:text="@string/nils" />
+
+    <TextView
+        android:id="@+id/novel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/novel"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/photo_princess"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/princess" />
+
+    <TextView
+        android:id="@+id/text_princess"
+        style="@style/CategoryStyle"
+        android:text="@string/a_little_princess" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="@string/novel2"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/photo_beauty"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/beauty" />
+
+    <TextView
+        android:id="@+id/text_beauty"
+        style="@style/CategoryStyle"
+        android:text="@string/beauty_and_the_beast" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:text="@string/novel3"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp">
+
+    </GridView>
+</RelativeLayout>

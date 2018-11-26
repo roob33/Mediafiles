@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Media files</string>
+    <string name="nils"> Nils</string>
+    <string name="novel">Selma Lagerlöf</string>
+    <string name="return_to_oz">Return To Oz</string>
+    <string name="for_music">Yip Harburg</string>
+    <string name="novel2">Frances Hodgson Burnett</string>
+    <string name="novel3">David Allen Ogden</string>
+    <string name="a_little_princess">A little princess</string>
+    <string name="beauty_and_the_beast">Beauty And The Beast</string>
+    <string name="back">back</string>
+</resources>
